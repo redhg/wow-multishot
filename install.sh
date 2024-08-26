@@ -6,7 +6,7 @@ SRC_DIR="./.build"
 # Determine the destination directory based on the operating system
 if [[ "$OSTYPE" == "darwin"* ]]; then
     # macOS
-    DEST_DIR="$HOME/Applications/World of Warcraft/_retail_/Interface/Addons/Multishot"
+    DEST_DIR="/Applications/World of Warcraft/_retail_/Interface/Addons/Multishot"
 elif [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" || "$OSTYPE" == "win32" ]]; then
     # Windows (assuming WSL or Git Bash)
     DEST_DIR="/w/World of Warcraft/_retail_/Interface/AddOns/Multishot"
